@@ -1,1 +1,1 @@
-web: python nothxbot/main.py
+web: python3 nothxbot/main.py
