@@ -29,8 +29,9 @@ class ChatBot(object):
             PORT = int(os.environ.get('PORT', '8443'))
             self.updater.start_webhook(listen="0.0.0.0",
                                   port=PORT,
-                                  url_path=self.token)
-            self.updater.bot.set_webhook("https://nothxbot.herokuapp.com/" + self.token)
+                                  url_path=self.token,
+                                  webhook_url="https://nothxbot.herokuapp.com/" + self.token)
+            #self.updater.bot.set_webhook("https://nothxbot.herokuapp.com/" + self.token)
             self.updater.idle()
 
     def initCommandHandlers(self):
