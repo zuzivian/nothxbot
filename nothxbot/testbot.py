@@ -17,7 +17,7 @@ def main():
                         level=logging.DEBUG)
 
     # provide TOKEN to initiate ChatBot
-    TOKEN = ''
+    TOKEN = '5539123008:AAGIqdf8370cYDlU2kzB5s-dKdtBGCJaSbg'
     bot = ChatBot(TOKEN)
     bot.run("POLL")
 

@@ -5,7 +5,7 @@ A Telegram bot that allows users to play No Thanks!, a popular board game
 
 #### Author: Nathaniel Wong
 
-#### Version: 0.0.2
+#### Version: 0.0.3
 
 # Rules of the Game
 
@@ -28,10 +28,15 @@ Link to the live version of the bot on telegram: http://t.me/nothxbot
 
 ## Changelog
 
+### 0.0.3
+- refactored ChatBot.py into multiple files
+- removed redundant methods
+- bugfix: wrong computation of some scores
+
 ### 0.0.2
+- refactored ChatBot, ChatUtil and GameManager
 - bugfix: player could add and remove bots during game
 - bugfix: player could TAKE or PASS out of turn
-- refactored ChatBot, ChatUtil and GameManager
 
 ### 0.0.1
 - initial No Thx! build with multiplayer and AI players
