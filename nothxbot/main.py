@@ -14,7 +14,7 @@ serving requests via webhook or polling.
 def main():
     # python-telegram-bot provides logging features for debugging purposes
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                        level=logging.DEBUG)
+                        level=logging.INFO)
 
     # provide TOKEN to initiate ChatBot
     TOKEN = os.environ.get('TOKEN')
